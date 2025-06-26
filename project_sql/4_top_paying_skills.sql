@@ -1,3 +1,8 @@
+/* What are the top skills based on salary?
+-Look at the average salary associated with each skill for Data Analyst positions
+-Focus on roles with specified salaries regardless of the location
+*/
+
 SELECT 
     skills,
     ROUND(AVG(salary_year_avg),0) AS avg_salary

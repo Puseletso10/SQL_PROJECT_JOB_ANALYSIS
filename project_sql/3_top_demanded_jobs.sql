@@ -1,3 +1,7 @@
+/*Find the count of the number of remote job postings per skills
+display the top 5 skills by thei remote jobs
+*/
+
 SELECT 
     skills,
     COUNT(skills_job_dim.job_id) AS demand_count
